@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+    
+        <h3>REVISÃO JAVASCRIPT/HTML - GAME  </h3>
+
+            <div id="div_main">
+
+                <p id="instrucao">O jogo começa ao clicar em alguma caixa
+                    <br><br>
+                    <b>Jogador 1 marca X</b><br><br>
+                    <b>Jogador 2 marca 0</b>
+                </p>
+
+                <input type="text" id="b1" onclick="minhaFuncao_1(); myfunc(); readonly">
+                <input type="text" id="b2" onclick="minhaFuncao_2(); myfunc(); readonly">
+                <input type="text" id="b3" onclick="minhaFuncao_3(); myfunc(); readonly">
+                <br><br>
+                <input type="text" id="b4" onclick="minhaFuncao_4(); myfunc(); readonly">
+                <input type="text" id="b5" onclick="minhaFuncao_5(); myfunc(); readonly">
+                <input type="text" id="b6" onclick="minhaFuncao_6(); myfunc(); readonly">
+                <br><br>
+                <input type="text" id="b7" onclick="minhaFuncao_7(); myfunc(); readonly">
+                <input type="text" id="b8" onclick="minhaFuncao_8(); myfunc(); readonly">
+                <input type="text" id="b9" onclick="minhaFuncao_9(); myfunc(); readonly">
+
+                <br><br>
+                <button id="btn_reset" onclick="myReset()">
+                    RESET
+                </button>
+                <br>            
+                <p id="print"></p>
+
+            </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

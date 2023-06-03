@@ -1,0 +1,52 @@
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 2px solid rgba(18, 18, 18, 0.821);
+    border-radius: 6px;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3 {
+    color: rgb(16, 15, 15);
+    font-size: 45px;
+    text-align: center;
+}
+
+/* Reset Button */
+#btn_reset {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid rgb(6, 165, 16);
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: rgb(118, 168, 121);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: rgb(101, 30, 255);
+    font-size: 20px;
+}
+
+#div_main {
+    text-align: center;
+}
+
+#instrucao {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+         
+    color: rgb(9, 9, 10);
+    font-size: 17px;
+}
